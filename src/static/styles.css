@@ -63,6 +63,8 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  /* Migliora la separazione visiva della sezione partecipanti */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .activity-card h4 {
@@ -72,6 +74,30 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-section {
+  margin-top: 1em;
+  background: #eef2ff;
+  border-radius: 6px;
+  padding: 0.75em;
+}
+
+.participants-section h4 {
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+  color: #3730a3;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 1.2em;
+  color: #334155;
+}
+
+.participants-list li {
+  margin-bottom: 0.25em;
+  font-size: 0.98em;
 }
 
 .form-group {
